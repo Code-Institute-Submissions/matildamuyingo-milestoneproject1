@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------Header------------*/
+
+header {
+    width: 100%
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-family: "Alata", sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 5px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*---------------------Head Picture-------------*/
+
+.container-start {
+    height: 450px;
+    background: url(../images/pt-marion-kopia.jpg)center fixed;
+}
+
+/*----------------------Start page text-----------*/
+
+.text-container {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.introducion-heading {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+}
+
+.introducion-heading a {
+    text-decoration: none;
+}
+
+.introducion-column-1,
+.introducion-column-2,
+.introducion-column-3 {
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+/*-----------------Sub page heading--------*/
+
+.container-sub-page {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.sub-page-heading {
+    color: #fff;
+    padding: 30px 50px;
+    background-color: #714c4c8c;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;   
+    position: absolute;
+    top: 120px;
+    border-radius: 5px;
+}
+
+.sub-page-heading-section h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 500%;
+    font-weight: 500;
+    letter-spacing: 5px;
+    
+}
+
+/*--------------------About---------------*/
+
+.top-row {
+    margin: 20px;
+}
+
+.about-picture-top,
+.about-picture-middle {
+    height: 400px;
+    margin: 30px;
+}
+
+.about-picture-top {
+    background: url(../images/marion-gunga.jpg)center center no-repeat;
+    background-size: 300px 300px;
+    border-left: solid #6f4b4b 5px;
+}
+
+.about-picture-middle {
+    background: url(../images/marion-gymnastik.jpg) center center no-repeat;
+    background-size: 300px 300px;
+    border-right: solid #6f4b4b 5px;
+}
+
+.about-text-top,
+.about-text-middle {
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Alata", sans-serif;
+    letter-spacing: 5px;
+    font-size: 130%;
+}
+
+.about-text-top p,
+.about-text-middle p {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.about-text-top p {
+    text-align: right;
+}
+
+.about-text-middle p {
+    text-align: left;
+}
+
+/*--------------------Footer---------------*/
+
+.container-footer {
+    height: 50px;
+    background-color: #6f4b4b;
+}
+
+.footer-email,
+.footer-phone {
+    display: block;
+    line-height: 50px;
+    font-size: 15px;
+    color: #ccbfbf;
+}
+
+.inline-footer-text {
+    display: inline;
+}
+
+.footer-email {
+    padding-left: 40px;
+}
+
+.footer-phone {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.list-inline {
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+
+.list-inline-item i {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #ccbfbf;
+}
