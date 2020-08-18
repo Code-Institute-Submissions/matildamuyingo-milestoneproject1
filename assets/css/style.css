@@ -164,11 +164,7 @@ header {
     margin: 20px;
 }
 
-.about-picture-top,
-.about-picture-middle {
-    height: 400px;
-    margin: 30px;
-}
+
 
 .about-picture-top {
     background: url(../images/marion-gunga.jpg)center center no-repeat;
@@ -182,6 +178,15 @@ header {
     border-right: solid #6f4b4b 5px;
 }
 
+/*--------------------About & Services overall structure---------------*/
+.about-picture-top,
+.about-picture-middle,
+.comp-picture-top,
+.comp-picture-middle {
+    height: 400px;
+    margin: 30px;
+}
+
 .about-text-top,
 .about-text-middle,
 .comp-heading {
@@ -192,36 +197,26 @@ header {
     letter-spacing: 5px;
 }
 
-.about-text-top p,
-.about-text-middle p {
+.about-text-paragraph-top,
+.about-text-paragraph-middle,
+.comp-cross-table,
+.comp-gym-table {
     font-family: sans-serif;
+    letter-spacing: 0;
     font-size: 14px;
     padding-top: 30px;
 }
 
-.about-text-top p {
+.about-text-paragraph-top {
     text-align: right;
 }
 
-.about-text-middle p {
+.about-text-paragraph-middle {
     text-align: left;
 }
 
 
-/*--------------------Competition---------------*/
-
-.comp-cross-table,
-.comp-gym-table {
-    font-family: sans-serif;
-    text-align: left;
-    font-size: 14px;
-}
-
-.comp-picture-top,
-.comp-picture-middle {
-    height: 400px;
-    margin: 30px;
-}
+/*--------------------Services---------------*/
 
 .comp-picture-top {
     background: url(../images/marion-crossfit.jpg)center center no-repeat;
