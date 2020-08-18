@@ -28,11 +28,30 @@ header {
     text-transform: uppercase;
 }
 
+.nav-color {
+    background-color: #f3f2f2;
+}
+
 /*---------------------Head Picture-------------*/
 
 .container-start {
     height: 450px;
     background: url(../images/pt-marion-kopia.jpg)center fixed;
+}
+
+.container-start-about {
+    height: 450px;
+    background: url(../images/coach.jpg)center fixed;
+}
+
+.container-start-comp {
+    height: 450px;
+    background: url(../images/lyft.jpg)center fixed;
+}
+
+.container-start-gym {
+    height: 450px;
+    background: url(../images/cs-hjalpen.jpg)center top fixed;
 }
 
 /*----------------------Start page text-----------*/
@@ -46,6 +65,8 @@ header {
 .introducion-heading {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
+    text-align: center;
+    font-size: 45px;
 }
 
 .introducion-heading a {
@@ -112,12 +133,13 @@ header {
 }
 
 .about-text-top,
-.about-text-middle {
+.about-text-middle,
+.comp-heading {
+    font-size: 30px;
     text-align: center;
     padding-top: 40px;
     font-family: "Alata", sans-serif;
     letter-spacing: 5px;
-    font-size: 130%;
 }
 
 .about-text-top p,
@@ -134,6 +156,35 @@ header {
 .about-text-middle p {
     text-align: left;
 }
+
+
+/*--------------------Competition---------------*/
+
+.comp-cross-table,
+.comp-gym-table {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+
+.comp-picture-top,
+.comp-picture-middle {
+    height: 400px;
+    margin: 30px;
+}
+
+.comp-picture-top {
+    background: url(../images/marion-crossfit.jpg)center center no-repeat;
+    background-size: 300px 300px;
+    border-left: solid #6f4b4b 5px;
+}
+
+.comp-picture-middle {
+    background: url(../images/comp-gymn.jpg) center center no-repeat;
+    background-size: 300px 300px;
+    border-right: solid #6f4b4b 5px;
+}
+ 
 
 /*--------------------Footer---------------*/
 
