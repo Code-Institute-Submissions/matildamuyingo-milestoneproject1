@@ -164,7 +164,9 @@ header {
     margin: 20px;
 }
 
-
+.about-sub-heading {
+    margin-top: 30px;
+}
 
 .about-picture-top {
     background: url(../images/marion-gunga.jpg)center center no-repeat;
@@ -176,6 +178,10 @@ header {
     background: url(../images/marion-gymnastik.jpg) center center no-repeat;
     background-size: 300px 300px;
     border-right: solid #6f4b4b 5px;
+}
+
+.about-acc-table {
+    margin-top: 30px;
 }
 
 /*--------------------About & Services overall structure---------------*/
@@ -200,11 +206,12 @@ header {
 .about-text-paragraph-top,
 .about-text-paragraph-middle,
 .comp-cross-table,
-.comp-gym-table {
+.comp-gym-table,
+.about-acc-table {
     font-family: sans-serif;
     letter-spacing: 0;
     font-size: 14px;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .about-text-paragraph-top {
