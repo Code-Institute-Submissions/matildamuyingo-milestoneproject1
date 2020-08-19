@@ -285,5 +285,13 @@ header {
     background-color: #ccbfbf;
 }
 
+.footer-icon {
+    color: #4c4a4a;
+}
+
+.footer-icon:hover {
+    color: #2b2929;
+}
+
 /*----------------------Media-----------*/
 
