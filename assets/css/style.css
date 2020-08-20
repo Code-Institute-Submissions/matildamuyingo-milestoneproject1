@@ -5,25 +5,42 @@ body {
     padding: 0;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 /*--------------------Header------------*/
 
 header {
     width: 100%
 }
 
-.logo h1 {
-    font-size: 50px;
+.logo h1,
+.logo h5 {
     font-family: "Alata", sans-serif;
-    text-align: center;
-    padding: 20px 0;
     letter-spacing: 5px;
     background-color: #612626;
     margin-bottom: 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 50px;
+    padding: 20px 0 10px 0;
+}
+
+.logo h5 {
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .logo a {
     text-decoration: none;
     color: #ccbfbf;
+}
+
+.logo a:hover {
+    color: #aca5a5;
 }
 
 .uppercase {
@@ -81,6 +98,46 @@ header {
     background: url(../images/cs-hjalpen.jpg)center top fixed;
 }
 
+/*-----------------Sub page heading--------*/
+
+.container-sub-page {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+
+.sub-page-heading,
+#index-page-heading {
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    padding: 30px 50px;
+    background-color: #714c4c8c;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;   
+    position: absolute;
+    top: 120px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+}
+
+.sub-page-heading-section h2 {
+    
+    font-size: 500%;
+    font-weight: 500;
+   
+    
+}
+
+#index-page-heading {
+    font-size: 300%;
+}
+
+#index-page-heading span{
+    background-color: #f87e44;
+    padding: 0 5px;
+}
 
 /*----------------------Start page text-----------*/
 
@@ -103,7 +160,6 @@ header {
 }
 
 .introducion-column-1,
-.introducion-column-2,
 .introducion-column-3 {
     padding-left: 60px;
     padding-top: 40px;
@@ -114,7 +170,7 @@ header {
 .contact-form {
     width: 50%;
     margin-left: 25%;
-    margin-right: 25;
+    margin-right: 25px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -130,33 +186,7 @@ header {
 }
 
 
-/*-----------------Sub page heading--------*/
 
-.container-sub-page {
-    width: 100%;
-    height: 450px;
-    position: relative;
-}
-
-.sub-page-heading {
-    color: #fff;
-    padding: 30px 50px;
-    background-color: #714c4c8c;
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;   
-    position: absolute;
-    top: 120px;
-    border-radius: 5px;
-}
-
-.sub-page-heading-section h1 {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 500%;
-    font-weight: 500;
-    letter-spacing: 5px;
-    
-}
 
 /*--------------------About---------------*/
 
@@ -166,6 +196,7 @@ header {
 
 .about-sub-heading {
     margin-top: 30px;
+    text-align: center;
 }
 
 .about-picture-top {
@@ -199,8 +230,9 @@ header {
     font-size: 30px;
     text-align: center;
     padding-top: 80px;
-    font-family: "Alata", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     letter-spacing: 5px;
+    font-weight: 600;
 }
 
 .about-text-paragraph-top,
@@ -235,6 +267,90 @@ header {
     background: url(../images/comp-gymn.jpg) center center no-repeat;
     background-size: 300px 300px;
     border-right: solid #6f4b4b 5px;
+}
+
+.comp-picture-top,
+.comp-picture-middle {
+    margin-top: 100px;
+}
+
+.services-heading {
+    font-size: 50px;
+    font-family: "Barlow Condensed", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services-intro-paragraph {
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.comp-heading {
+    margin-bottom: 40px;
+}
+
+.pt-prom-text {
+    font-weight: 500;
+}
+
+.sign-up-link {
+    color: #000;
+}
+
+.sign-up-link:hover {
+    text-decoration: none;
+    color: #ccbfbf;
+}
+
+.contact-link-button {
+    margin-top: 35px;
+    margin-left: 35%;
+    border-color:  #bbb6b6;
+}
+
+.contact-link-button:hover {
+    background-color: #dbd6d6;
+    border-color: #dbd6d6;
+}
+
+.consultation {
+    text-decoration: underline;
+    background-color: #f5f53187;
+}
+
+
+.price-list-pt {
+    list-style-type: none;
+    display: block;
+    width: 60%;
+    background-color:#f87e44;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-top: 40px;
+    padding-top: 20px;
+    line-height: 28px;
+}
+
+.pt-price-hour,
+.pt-price-item {
+    display: inline-block;
+    text-align: left;
+    line-height: 28px;
+}
+
+.pt-price-hour {
+    width: 60%;
+}
+
+.pt-price-item {
+    width: 30%;
+}
+
+.time-session {
+    color: #e2e1e1;
+    font-size: 14px;
+    font-weight: 300;
 }
  
 
@@ -295,3 +411,87 @@ header {
 
 /*----------------------Media-----------*/
 
+@media screen and (max-width: 576px){
+
+    .sub-page-heading,
+    #index-page-heading {
+        width: 80%;
+        margin-left: 7%;
+    }
+
+    .sub-page-heading-section h2 {
+        font-size: 350%;
+    }
+
+    #index-page-heading {
+        font-size: 200%;
+    }
+
+    .introducion-column-1,
+    .introducion-column-3 {
+        padding: 40px 30px 10px 30px;
+    }
+
+    .container-about-second,
+    .container-comp-second {
+        width: 110%;
+        margin-left: -15px;
+    }
+
+    .about-picture-top,
+    .about-picture-middle,
+    .comp-picture-top,
+    .comp-picture-middle {
+        display: none;
+    }
+
+
+    /*-------About-------*/
+
+    .about-text-paragraph-top {
+        text-align: left;
+    }
+
+    /*------Services------*/
+
+    .price-list-pt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-link-button {
+        margin-left: 25%;
+    }
+
+    .comp-text-middle {
+        width: 80%;
+        margin-left: 7%;
+    }
+
+    
+
+    /*-----Contact------*/
+
+    .contact-form {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /*------Footer------*/
+
+    .container-footer {
+        line-height: 50px;
+        height: 150px;
+        margin-top: 30px;
+        
+    }
+
+    .footer-email,
+    .footer-phone,
+    .social-links {
+        line-height: 40px;
+        text-align: center;
+    }
+
+
+}
