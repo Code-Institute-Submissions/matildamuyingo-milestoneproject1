@@ -411,7 +411,7 @@ header {
 
 /*----------------------Media-----------*/
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
 
     .sub-page-heading,
     #index-page-heading {
