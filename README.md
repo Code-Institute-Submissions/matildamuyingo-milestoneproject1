@@ -120,43 +120,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
+The website was tested with friends and family and the features on the website was comfirmed to be useful when searching for a personal trainer.
+
 ### **Testing User Stories from User Experience (UX) Section**
 
 #### **First Time Visitor Goals**
 1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about what services can be provided.
-Upon entering the site, the first elements visible are the webpage name, with the profession title and the navigation bar to help understand the purpose of the site. 
-The hero image contains a health related quote, giving more attention to the website's purpose.
-In the navigation bar there is a clearly visible services tab where users can look for further information.
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content about pricing for the services.
-The navigation is the first thing visible on each page, and the user can easily find the services tab. 
-When scrolling on the services tab the prices for the PT-service are clearly presented with a background color that calls it to attention.
 3. As a First Time Visitor, I want to look for ways to get in contact with the person running the website, in the best way possible.
-When accessing the page, the contact link in the nav bar is clearly visible. 
-If the user wants to look through the page a bit first before clicking a new link, the index page will bring you down to the contact form.
-When accessing the services page there are several buttons and links that bring the user back to the contact form on the index page.
 4. As a First Time Visitor, I want to find out more about the person the webpage is for and links to social media so I can see more content regarding daily activities.
-Entering the site reveals the name of the person the webpage is about and the profession is stated beneath the name. This lets the user know that this is someone in the fitness business.
-Directly underneath is a navigation bar with a link labeled “About” that leads to a page where the user can find more information about the person the website is about. 
-When accessing the webpage via computer, the index page also reveals a section with text that is called about me and contains some information. This section also has links that can let the user navigate to the about.html page for more information.
 
 #### **Returning Visitor Goals**
 
-1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-These are clearly shown in the banner message.
-They will be directed to a page with another hero image and call to action.
+1. As a Returning Visitor, I want to find information about the prices and how they may have changed since the last visit.
 
-2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-The navigation bar clearly highlights the "Contact Us" Page.
-Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+2. As a Returning Visitor, I want to find a faster way of getting in contact with the person running the website, preferably finding a phone number.
 
 
 ## **Deployment**
@@ -194,7 +173,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ### **Code**
 - [Bootstrap4:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)    Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System and other components that appear on the website.
-- [This webpage](https://blog.hubspot.com/marketing/jump-link-same-page)    was used to understand how to link within an existing page
+- [This blog](https://blog.hubspot.com/marketing/jump-link-same-page)    was used to understand how to link within an existing page
 - [Stackoverflow:](https://stackoverflow.com/questions/21254889/bootstrap-how-to-remove-the-gutter-between-columns)   Used for help with removing bootstrap gutters
 ### **Content**
 - All content was written by the developer.
